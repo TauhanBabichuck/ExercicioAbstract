@@ -32,6 +32,6 @@ public class Administrativo extends Funcionario{
 
     @Override
     public double calcularBonusSalario() {
-        return this.getSalario()/100*(0.05);
+        return this.getSalario()*1.05;
     }
 }

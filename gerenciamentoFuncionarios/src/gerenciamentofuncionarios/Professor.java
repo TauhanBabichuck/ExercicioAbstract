@@ -32,7 +32,7 @@ public class Professor extends Funcionario {
 
     @Override
     public double calcularBonusSalario() {
-        return super.getSalario()*(0.1);
+        return super.getSalario()*1.10;
     }
 
 }
